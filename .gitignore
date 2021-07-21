@@ -1,0 +1,11 @@
+*/.vagrant
+*/terraform.tfvars
+*/terraform.tfstate
+*/terraform.tfstate.backup
+*/.terraform
+*/mykey*
+.vagrant
+!*/forVm/.ThisFolderIsIgnoredByGit
+forVm
+ubuntu-xenial-16.04-cloudimg-console.log
+*/.gitfile
