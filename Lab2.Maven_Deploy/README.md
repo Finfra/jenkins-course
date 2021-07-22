@@ -1,5 +1,4 @@
 # Lab2. Maven 배포 실습
-* Gradle Deploy
 | Folder                                                                                                                              | Contents                                                                  |
 |-                                                                                                                                    |-                                                                          |
 |[Lab1.MavenIntro](Lab1.MavenIntro/README.md)                                                                                         |Maven 프로젝트 개요                                                        |

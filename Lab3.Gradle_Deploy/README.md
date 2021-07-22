@@ -1,5 +1,4 @@
 # Lab3. Gradle Pipe Line 배포
-* Maven Deploy + Artifactory
 | Folder                                                                              | Contents                            |
 |-                                                                                    |-                                    |
 |[Lab1.CI_andCD_pipelineWithJenkins_GradleAndArtifactory](Lab1.CI_andCD_pipelineWithJenkins_GradleAndArtifactory/README.md)          |CI and CD pipeline with Jenkins, Gradle and Artifactory              |
