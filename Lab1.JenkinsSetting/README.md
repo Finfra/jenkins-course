@@ -1,5 +1,4 @@
 # Lab1. 사전 실습 환경 세팅
-* Jenkins환경 구성
 | Folder                                                                              | Contents                            |
 |-                                                                                    |-                                    |
 |[Lab1.JenkinsInstall](Lab1.JenkinsInstall/README.md)                                 |Jenkins Job 설정 및 대시보드 사용법  |
