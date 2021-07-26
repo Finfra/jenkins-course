@@ -6,7 +6,7 @@
 * 2. 체크 → Download now and install after restart
 ![](img/1.png)
 
-# Item 생성
+## Item 생성
 * 1. New Item → Enter an item name에 git_source입력 → Freestyle Project 선택 → OK 클릭
 ![](img/2.png)
 
