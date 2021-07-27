@@ -1,5 +1,5 @@
-# CI and CD pipeline with Jenkins, Gradle and Artifactory
-##
+# Gradle Build
+## Gradle Build Process
 
 1. 아래 git Repository에 접속하여 소스코드를 확인합니다.
   - https://bitbucket.org/jgnam/gradle_base 
