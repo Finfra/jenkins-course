@@ -1,0 +1,1 @@
+# Artifactory Setting
