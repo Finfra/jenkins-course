@@ -51,33 +51,53 @@ curl jm2:8082|head -n 100
 ssh jenkins "sudo cat /var/lib/jenkins/secrets/initialAdminPassword"
 ```
 * PC에서 http://jenkins:8080으로 접속하고 위에서 얻은 비번을 입력하니다.
+
 ![](./img/1.getStarted.png)
+
 * 셋팅이 끝나면 URL을 입력합니다. (ip방식으로 접속하시는 분은 IP주소 입력)
+
 ![](./img/2.png)
+
 * Restart버튼을 클릭해서 jenkins를 재부팅 합니다.
+
 ![](./img/3.png)
+
 * 재부팅이 끝나면 로그인 합니다.
+
 ![](./img/4.png)
+
 * 로그인 완료후.
+
 ![](./img/5.png)
+
 
 
 ## jm1      : Tomcat Server
 * PC에서 http://jm1:8080 으로 접속합니다.
 * id/pw : admin/password
+
 ![](./img/6.png)
+
 * "Manage App"버튼을 클릭해서 로그인을 시도 합니다.
+
 ![](./img/7.png)
+
 
 
 ## jm2      : Artifactory Server
 * PC에서 http://jm2:8082 으로 접속합니다.
 * id/pw : admin/password
+
 ![](./img/artifactory1.png)
+
 * 로그인 성공시
+
 ![](./img/artifactory2.png)
+
 * admin 추가 정보를 입력합니다. [필수 아님]
+
 ![](./img/artifactory3.png)
+
 
 ### OS를 재부팅했다면?
 * Artifactory reboot.

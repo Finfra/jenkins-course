@@ -1,5 +1,5 @@
 # Artifactory 설치
-* Lab1의 JenkinsInstall을 진행하였다면 본 챕터는 진행할 필요 없음.
+* Lab1의 JenkinsInstall 을 실행해 설치하였다면 본 챕터는 진행할 필요 없음.
 
 * 아래의 스크립트를 Artifactory를 운영할 서버에서 실행합니다.(Root 계정에서 실행)
 * 스크립트 안에 IP를 지정 후 실행 하세요.
