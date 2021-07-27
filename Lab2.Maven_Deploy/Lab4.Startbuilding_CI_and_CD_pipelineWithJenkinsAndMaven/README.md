@@ -96,7 +96,7 @@
 
 ![](img/p3.png)
 
-4. Tomcat서버에서 배포가 잘 되었는지 확인함.
+4. http://jm1:8080/manager/html 에 접속하여 Tomcat서버에서 배포가 잘 되었는지 확인함.
 
 ![](img/p4.png)
 
