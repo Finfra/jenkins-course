@@ -35,50 +35,35 @@
 ![](img/g3.png)
 
 ## Gradle build Item에 Gradle 빌드 셋팅 추가
-1.
+1.Jenkins Home에서 gradle_build 클릭
 
 ![](img/b1.png)
 
-2.
+2. 좌측 메뉴에서 Consigure 클릭
 
 ![](img/b2.png)
 
-3.
+3. build에서 invoek gradle script를 클릭해서 Gradle Version에서 gradle 확인 후 Save 버튼 클릭
 
 ![](img/b3.png)
 
-4.
+4. gradle_build의 좌측 메뉴에서 Build Now 클릭
 
 ![](img/b4.png)
 
-5.
+## Build 확인
+1. 성공한 Build의 "으"모양 아이콘 클릭
 
-![](img/b5.png)
+![](img/c1.png)
 
-6.
+2. jFrog Artifactory에서 세부 정보 확인
 
-![](img/b6.png)
+![](img/c2.png)
 
-7.
+3. 성공한 빌드에서 Console Output확인
 
-![](img/b7.png)
+![](img/c3.png)
 
-8.
+4. gradle_build의 좌측 메뉴에서  "으"모양 아이콘 클릭해서 jFrog Artifactory의 Artifact확인
 
-![](img/b8.png)
-
-9.
-
-![](img/b9.png)
-
-10.
-
-![](img/b.10png)
-
-11.
-
-![](img/b.11png)
-
-12.
-
-![](img/b.12png)
+![](img/c4.png)
