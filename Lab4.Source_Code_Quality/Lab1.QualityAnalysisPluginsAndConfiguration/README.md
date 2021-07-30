@@ -5,6 +5,8 @@
 * https://tomgregory.com/sonarqube-quality-gates-in-jenkins-build-pipeline/
 
 ## SonarQube Server Setting
+* SonarQube 앱을 Docker Container를 통해 설치하고 셋팅합니다.
+
 1. SonarQube가 작동할 Docker가 설치되어 있는 서버에 접속
 ```
 ssh ubuntu@jm2
@@ -54,7 +56,7 @@ docker run -d --rm --name sonarqube -p 9000:9000 sonarqube:lts
 ![](img/s11.png)
 
 ## Quality Gate 추가
-* 기존에 설정되어 있는 옵션도 있지만, 추가로 간단한 Quality 기준을 설정합니다.
+* 기존에 설정되어 있는 옵션도 있지만, 추가로 간단한 Quality 기준을 설정합니다. Quality Gate는 필터 같은 것으로 해당 등급의 Quality를 만족 못하면 jenkins의 Pipe가 실패하는데 사용됩니다.
 
 1. SonarQube 홈에서 Quality Gate 메뉴를 클릭합니다.
    - Default Built-in Quality Gates를 확인합니다.
@@ -82,6 +84,8 @@ docker run -d --rm --name sonarqube -p 9000:9000 sonarqube:lts
 ![](img/q6.png)
 
 ## Jenkins에 SonarQube Plugin 설치 및 셋팅
+* 이번 예제에서는 Jenkins단에서 SonarQube를 사용할 수 있도록 Plugin과 관련 설정을 진행합니다.(특히 Secret, 현재 버전에서는 Password방식 작동안함.)
+
 1. Jenkins Home에서 Manage Jenkins에서 Manage Plugins 클릭
 
 ![](img/p1.png)
