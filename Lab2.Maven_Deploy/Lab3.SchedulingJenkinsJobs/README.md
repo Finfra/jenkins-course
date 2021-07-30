@@ -1,4 +1,6 @@
 # Scheduling Jenkins Jobs  : Source Control Polling
+* Maven으로 Build하고 build한 Artifacts를 다른 Project로 Copy하는 Plugins을 설치합니다.
+
 ## Maven Setting : Build option
 1. jenkins 홈에서 전 실습에서 생성한 Item인 git_source클릭
 

@@ -1,11 +1,13 @@
 # Prerequirment for Terraform Console 서버
-* Ubuntu 18.04 +
-* Terraform
-* aws cli
-* python 3.6 +
+* 실습 진행전 필요한 환경은 아래와 갈습니다.
+  - Ubuntu 18.04 +
+  - Terraform
+  - aws cli
+  - python 3.6 +
 
 
 # Jenkins install with Terraform
+* Terraform을 통해 Jenkins 서버, vm01(Tomcat)서버, vm02(Artifactory)서버등을 프로비저닝하고 설치합니다.
 * Script
 ```
 cd
@@ -45,6 +47,7 @@ curl jm2:8082|head -n 100
 ```
 
 # Jenkins 설치 확인 및 첫 셋팅
+* 설치 후 비번 등의 기본적인 셋팅을 진행합니다.
 ## Jenkins1 : Jenkins Server
 * password 얻기(셋팅시 비번 필요)
 ```
@@ -112,6 +115,8 @@ sudo docker exec -it --user root artifactory bash
 ```
 
 # Jenkins Stop/Start/status
+* Jenkins서버를 종료하고 시작하는 방법입니다.
+* 활용 사례 : 플러그인들 중에 설치시 재부팅을 해야 적용되는 것이 있는데 그러한 플러그인 설치시 재부팅하다 걸리면 아래의 스크립트로 재부팅해줍니다.
 ## jenkins os에 접속합니다.
 ```
 ssh jenkins
@@ -133,4 +138,4 @@ sudo systemctl status jenkins
 
 
 
-cf) systemctl enable jenkins
+* cf) 이미 되어 있어서 진행할 필요는 없지만 jenkins를 서버스로 등록하는 방법입니다. :  systemctl enable jenkins

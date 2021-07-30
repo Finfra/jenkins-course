@@ -1,4 +1,8 @@
 # Start building CI and CD pipeline with Jenkins and Maven
+* Tomcat Container로 Artifacts를 보내는 플러그인을 설치하고, 이전 예제에서 만들 Item에서 Copy Plugins를 통해 "git_source" item에서 war_deployment로 Artifacts를 복사하고 war_deployment는 Tomcat Container로 Artifacts를 보내는 플러그인을 통해 배포합니다.
+* 일련의 작업들이 성공했는지 Pipeline 뷰에서 확인하고 Tomcat서버에서 배포 결과를 확인합니다.
+
+
 ## Start building pipeline with Jenkins and Maven
 1. Jenkins Home에서 "war_deployment"클릭
 

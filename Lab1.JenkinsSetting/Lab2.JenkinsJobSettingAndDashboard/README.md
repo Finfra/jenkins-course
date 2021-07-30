@@ -1,4 +1,5 @@
 # Jenkins Job 설정 및 대시보드 사용법
+* Jenkins에 간단한 Item을 생성하고 Build하는 예입니다.(실제 java build는 아니고 간단한 commands 명령이 실행됩니다.)
 ## Jenkins Job 설정 연습
 1. 첫 접속시 Job 설정 (Main Menu에서 Job생성 가능)
 

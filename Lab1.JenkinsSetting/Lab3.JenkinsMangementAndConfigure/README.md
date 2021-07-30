@@ -1,4 +1,6 @@
 # Jenkins 관리 및 구성 방법
+* 플러그인을 설치하는 예 입니다.
+
 ## Plugin install
 * jenkins Home에서 "Manage Jenkins"
 
