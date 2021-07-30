@@ -1,7 +1,8 @@
 # Gradle과 Artifactory 작업
-* Build한 Gradle소스를 Artifactory에 배포하고 확인하는 예제 입니다. 
+* Build한 Gradle소스를 Artifactory에 배포하고 확인하는 예제 입니다.
 
 ## Gradle build Item에 Artifactory 셋팅
+* Gradle build Item에 Artifactory 셋팅을 추가하여 Build시 Artifactory로 Artifact가 배포되도록 셋팅합니다. 또한, Build시 Gradle을 사용함으로 Gradle관련 셋팅도 같이 합니다.
 1. Jenkins Home에서 gradle_build item클릭
 ![](img/1.png)
 
@@ -24,6 +25,8 @@
 ![](img/7.png)
 
 ## Jenkins에 Gradle Setting
+* 위의 Item에 Gradle 옵션이 제대로 작동하기 위해서는 Jenkins에 gradle 관련 옵션을 추가해야 하는데 이번 예제에서는 Jenkins에 Gradle 관련 옵션을 추가합니다.
+
 1. Jenkins Home에서 Manage Jenkins메뉴에서 Global Tool Configuration클릭
 
 ![](img/g1.png)
@@ -37,6 +40,9 @@
 ![](img/g3.png)
 
 ## Gradle build Item에 Gradle 빌드 셋팅 추가
+* Jenkins에 Gradle옵션이 추가되면 gradle_build Item의 Build옵션에 gradle version을 셋팅할 수 있게 되는데 이번 예제에서는 Gradel build item의 Gradle build 옵션을 완료하고 실행하여 Artifactory에 Artifact가 잘 배포 되었는지 확인합니다.
+
+
 1.Jenkins Home에서 gradle_build 클릭
 
 ![](img/b1.png)

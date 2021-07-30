@@ -2,6 +2,8 @@
 * Maven으로 Build하고 build한 Artifacts를 다른 Project로 Copy하는 Plugins을 설치합니다.
 
 ## Maven Setting : Build option
+* git_source Item에서 build옵션을 추가하고 Jenkins셋팅에 Maven 옵션을 지정합니다.
+
 1. jenkins 홈에서 전 실습에서 생성한 Item인 git_source클릭
 
 ![](img/1.png)
@@ -29,6 +31,8 @@
 ![](img/7.png)
 
 ## Item Setting
+* git_source옵션에 Maven Post-build Actions옵션을 추가하여 war파일이 생성되는지 확인합니다.
+
 1. Jenkins Home에서 "git_source"선택
 
 ![](img/i1.png)
@@ -58,6 +62,7 @@
 ![](img/i7.png)
 
 ## Build Job을 포함하는 PipeLine 생성
+* 두개의 Job을 연결할 PipeLine을 생성합니다.
 1. Jenkins Home에서 + 버튼 클릭
 
 ![](img/p1.png)
@@ -77,6 +82,7 @@
 
 
 ## 배포를 하는 Copy Item 생성
+* 위에서 생성한 Pipe에 열결할 Copy Item을 생성하고 Copy plugins을 설치합니다.
 1. Jenkins Home → New Item → Enter an item name에  war_deployment 입력 → Freestyle Project → OK
 
 ![](img/c1.png)

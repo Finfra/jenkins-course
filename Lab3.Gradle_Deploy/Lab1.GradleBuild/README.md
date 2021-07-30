@@ -1,7 +1,7 @@
 # Gradle Build
-* Gradle로 Java Source를 Build하는 예제입니다. 
 
 ## Gradle Build Process
+* Gradle로 Java Source를 Build하는 예제입니다.
 
 1. 아래 git Repository에 접속하여 소스코드를 확인합니다.
   - https://bitbucket.org/jgnam/gradle_base 
