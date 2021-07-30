@@ -1,4 +1,6 @@
 # Java Coding Quality Analysis Plugins and Configuration
+* 이번 예제는 Jenkins에서 빌드되는 코드의 Quality를 체크할 수 있는 SonarQube라는 App을 Docker를 통해 Provision하고 셋팅하고 Jenkins와 연동하는 셋팅을 실습하는 예제입니다.
+
 * https://www.sonarqube.org
 * https://tomgregory.com/sonarqube-quality-gates-in-jenkins-build-pipeline/
 

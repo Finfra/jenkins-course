@@ -1,5 +1,9 @@
 # Artifactory Setting
+* Artifactory 플러그인을 설치하고 Artifactory를 셋팅하는 예제입니다.
+
+
 ## Artifactory Plugin 설치
+* 이미 설치했으면 1-3번 절차는 생략 가능.
 1. Jenkins Home의 메뉴의 Manage Jenkins클릭 후 Manage Plugins를 클릭
 ![](img/p1.png)
 
@@ -13,6 +17,7 @@
    - http://jm2:8082 접속
    - 접속 실패시 아래 그림과 같이 jm2서버에 접속해서 "sudo /usr/local/sbin/artifactoryReset.sh"입력하고 다시 접속(Artifactory 다시 시작까지 2분정도 소요)
    - Artifactory 로그인하려면 admin/password 사용
+   - 로그인 이후 안내에 따라 각종 셋팅(비번 변경)을 실행합니다. 
 ![](img/p4.png)
 
 5. Jenkins Home에서 Manage Jenkins 메뉴를 클릭하고 System Configuration을 클릭해서 Artifactory 설정할 수 있는 화면으로 들어갑니다.

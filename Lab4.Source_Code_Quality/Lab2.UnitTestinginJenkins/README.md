@@ -1,4 +1,6 @@
 # Unit Testing in Jenkins
+* 이번 예제는 정상적인 코드를 Build하면서 SonarQube가 잘 작동하는지 확인하고 비정상적인 코드도 Build하면서 Coding Quality를 체크하고 잘못 된 코드 원문까지 찾아보는 예제입니다.
+
 ## 정상적인 코드에 대한 Coding Quality 체크를 위한 Pipline 생성 및 확인
 1. Jenkins Home에서 New Item 클릭
 

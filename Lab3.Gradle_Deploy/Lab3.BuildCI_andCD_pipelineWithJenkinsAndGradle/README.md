@@ -1,4 +1,6 @@
 # Gradle과 Artifactory 작업
+* Build한 Gradle소스를 Artifactory에 배포하고 확인하는 예제 입니다. 
+
 ## Gradle build Item에 Artifactory 셋팅
 1. Jenkins Home에서 gradle_build item클릭
 ![](img/1.png)
